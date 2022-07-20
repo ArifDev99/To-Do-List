@@ -1,0 +1,22 @@
+body {
+    background-image:
+        linear-gradient(rgba(23, 24, 34, 0.300),
+            rgba(23, 24, 34, 0.400)),
+        url('../images/background.jpg');
+}
+
+.title-head {
+    color: white;
+}
+
+.desc-head {
+    color: white;
+}
+
+.del-head {
+    color: white;
+}
+
+hr {
+    border-top: 1px solid white;
+}
