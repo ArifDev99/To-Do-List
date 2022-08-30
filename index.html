@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -34,7 +34,7 @@
                                 <textarea type="text" id="description" cols="30" rows="10" class="form-control"
                                     maxlength="500" autocomplete="off" placeholder="Description" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-success btn-block">Save</button>
+                            <button type="submit" id="submit-btn"class="btn btn-success btn-block">Save</button>
                         </form>
                     </div>
 
@@ -55,7 +55,7 @@
                 </div>
                 <hr>
                 <div id="tasks"></div>
-
+                <button type="button" id="del-btn" class="btn btn-danger" disabled="disabled">Delete All</button>
             </div>
 
         </div>

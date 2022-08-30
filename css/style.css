@@ -16,6 +16,11 @@ body {
 .del-head {
     color: white;
 }
+.badge{
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 hr {
     border-top: 1px solid white;
